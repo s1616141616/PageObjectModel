@@ -1,5 +1,7 @@
 package com.pom.pages;
 
-public class CreateAccountPage {
+import com.pom.main.TestBase;
+
+public class CreateAccountPage extends TestBase{
 
 }

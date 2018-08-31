@@ -1,5 +1,7 @@
 package com.pom.pages;
 
-public class FlightsPage {
+import com.pom.main.TestBase;
+
+public class FlightsPage extends TestBase {
 
 }

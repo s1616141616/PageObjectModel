@@ -1,5 +1,7 @@
 package com.pom.pages;
 
-public class HomePage {
+import com.pom.main.TestBase;
+
+public class HomePage extends TestBase {
 
 }

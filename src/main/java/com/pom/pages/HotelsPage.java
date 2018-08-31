@@ -1,5 +1,7 @@
 package com.pom.pages;
 
-public class HotelsPage {
+import com.pom.main.TestBase;
+
+public class HotelsPage extends TestBase {
 
 }
