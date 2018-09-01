@@ -26,12 +26,12 @@ public class TestBase {
 					"D:\\eclipse-workspace\\PageObjectModel\\src\\main\\java\\com\\pom\\config\\config.properties");
 			prop.load(input);
 
-			} catch (FileNotFoundException e) {
+		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-			} catch (IOException e) {
+		} catch (IOException e) {
 			e.printStackTrace();
-			}
-					}
+		}
+	}
 
 	public static void initialization() {
 
@@ -52,13 +52,14 @@ public class TestBase {
 			driver = new ChromeDriver();
 
 		}
-		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
-		//driver.manage().timeouts().pageLoadTimeout(TestUtility.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
-		//driver.manage().timeouts().implicitlyWait(TestUtility.IMPLICIT_WAIT, TimeUnit.SECONDS);
+//		driver.manage().window().maximize();
+	//	driver.manage().deleteAllCookies();
+		// driver.manage().timeouts().pageLoadTimeout(TestUtility.PAGE_LOAD_TIMEOUT,
+		// TimeUnit.SECONDS);
+// driver.manage().timeouts().implicitlyWait(TestUtility.IMPLICIT_WAIT,TimeUnit.SECONDS);
 
 		driver.get(prop.getProperty("url"));
 
 	}
-	
+
 }

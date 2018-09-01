@@ -22,7 +22,7 @@ public class SigninPage extends TestBase {
 	@FindBy(css = "#header-logo > img")
 	WebElement logo;
 	
-	@FindBy(xpath = "//*[@id=\"signin-loginid\"]")
+	@FindBy(xpath = "//input[contains(@id,'signin-loginid')]")
 	WebElement email;
 	
 	@FindBy(xpath = "//*[@id=\"signin-password\"]")

@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pom.testcases.LoginPageTest">
+      <class name="com.pom.testcases.AccountHomePageTest">
         <methods>
-          <include name="loginPageTitleTest"/>
+          <include name="clickHotelsLinkTest"/>
           <include name="tearDown"/>
+          <include name="clickRentalCarsLinkTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.pom.testcases.LoginPageTest -->
+      </class> <!-- com.pom.testcases.AccountHomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
